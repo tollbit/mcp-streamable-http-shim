@@ -1,6 +1,6 @@
 {
   "name": "@tollbit/mcp-streamable-http-shim",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a shim for mapping a streamable http server to stdio",
   "main": "index.js",
   "type": "module",
