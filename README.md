@@ -1,4 +1,4 @@
-# MCP Toolbox
+# MCP Streamable HTTP Shim
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tollbit/mcp-streamable-http-shim)
 [![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/ZB4mEKDRm4)
@@ -19,8 +19,9 @@ npx @tollbit/mcp-streamable-http-shim --url https://your-url-here.com -H "some-h
 ```
 
 The full command for the modelcontextprotocol/inspector is:
+
 ```
 npx @modelcontextprotocol/inspector npx -y @tollbit/mcp-streamable-http-shim --url \"https://example.com/mcp\"
 ```
-You may need to re-add quotes in the MCP editor
 
+You may need to re-add quotes in the MCP editor
