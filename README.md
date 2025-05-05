@@ -17,3 +17,10 @@ If you want to add headers to requests to your server (maybe you use an API key)
 ```
 npx @tollbit/mcp-streamable-http-shim --url https://your-url-here.com -H "some-header: and-its-value" -H "Authorization: Bearer $MY_TOKEN"
 ```
+
+The full command for the modelcontextprotocol/inspector is:
+```
+npx @modelcontextprotocol/inspector npx -y @tollbit/mcp-streamable-http-shim --url \"https://example.com/mcp\"
+```
+You may need to re-add quotes in the MCP editor
+
