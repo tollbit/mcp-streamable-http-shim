@@ -1,0 +1,28 @@
+{
+  "name": "@tollbit/mcp-streamable-http-shim",
+  "version": "1.0.0",
+  "description": "a shim for mapping a streamable http server to stdio",
+  "main": "index.js",
+  "type": "module",
+  "bin": "./index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tollbit/mcp-streamable-http-shim.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tollbit/mcp-streamable-http-shim/issues"
+  },
+  "homepage": "https://github.com/tollbit/mcp-streamable-http-shim#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.11.0",
+    "command-line-args": "^6.0.1"
+  }
+}
